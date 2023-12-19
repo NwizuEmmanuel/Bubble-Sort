@@ -1,15 +1,14 @@
 class BubbleSort {
     public static void main(String[] args){
-        int[] array1 = {5, 2, 9, 1, 5, 6};
-        int[] array2 = {3, 20, 15, 2, 4, 1};
+        int[] array = {3, 20, 15, 2, 4, 1};
 
         System.out.println("Original array");
-        printArray(array2);
+        printArray(array);
 
-        bubbleSort(array2);
+        bubbleSort(array);
 
         System.out.println("\nSorted Array");
-        printArray(array2);
+        printArray(array);
     }
 
     public static void bubbleSort(int[] arr){
